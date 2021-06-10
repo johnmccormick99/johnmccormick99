@@ -1,98 +1,36 @@
 baseURL = "https://akabob.netlify.app/"
-languageCode = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "aka bob"
 theme = "KeepIt"
+
+paginate = 12
 enableEmoji = true
+enableRobotsTXT = true
 
-[params.share]
-
-[languages]
-  [languages.en]
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
     weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    paginate = 12
-    copyright = ""
-    # Menu config
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        # you can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.en.menu.main]]
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = "blah"
-        name = ""
-        url = "https://github.com/johnmccormick99"
-        title = "GitHub"
-        weight = 6
-    [languages.en.params]
-      # site description
-      description = "Blah"
-      # site keywords
-      keywords = ["this", "that"]
-      # App icon config
 
-      # Home page config
-      [languages.en.params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-        [languages.en.params.home.profile]
-          enable = true
-          # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
-          # URL of avatar shown in home page
-          avatarURL = "/images/avatar.png"
-          # title shown in home page (HTML format is supported)
-          title = "aka bob"
-          # subtitle shown in home page
-          subtitle = "Blah"
-          # whether to use typeit animation for subtitle
-          typeit = false
-          # whether to show social links
-          social = true
-          # disclaimer (HTML format is supported)
-          disclaimer = ""
-        # Home page posts
-        [languages.en.params.home.posts]
-          enable = true
-          # special amount of posts in each home posts page
-          paginate = 6
-      # Social config in home page
-      [languages.en.params.social]
-        Linkedin = "johnmccormick99"
-        GitHub = "johnmccormick99"
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+
+[params]
+  author = "john mccormick"
+  subtitle = "john mccormick"
+
+  [params.social]
+    Linkedin = "johnmccormick99"
+    GitHub   = "johnmccormick99"
+    Email    = "johnmccormick99@gmail.com"
+
+  [params.share]
