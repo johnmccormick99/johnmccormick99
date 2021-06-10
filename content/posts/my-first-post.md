@@ -1,7 +1,7 @@
 +++
-author = "Hugo Authors"
+author = "John McCormick"
 title = "Markdown Syntax Guide"
-date = "2019-03-11"
+date = "2021-06-10"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
     "markdown",
@@ -13,7 +13,6 @@ categories = [
     "syntax",
 ]
 series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
