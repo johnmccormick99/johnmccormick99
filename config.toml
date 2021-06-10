@@ -30,7 +30,6 @@ enableRobotsTXT = true
   avatar = "https://cataas.com/cat/gif"
 
   [params.social]
-    Linkedin = "johnmccormick99"
     GitHub   = "johnmccormick99"
     Email    = "johnmccormick99@gmail.com"
 
