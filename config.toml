@@ -19,11 +19,6 @@ enableRobotsTXT = true
     url = "/categories/"
     weight = 2
 
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
-
 [params]
   author = "john mccormick"
   subtitle = "john mccormick"
